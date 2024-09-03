@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Technologies</title>
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="img/images2.png" alt="Company Logo" class="header-logo">
+        </a>
+        <div class="header-content">
+            <h1 id="typed-text"></h1>
+            <h1>Web Developer Internship Opportunities</h1>
+            <p>at Cognifyz Technologies</p>
+        </div>
+        <div class="location">
+            <span class="location-icon">&#x1F4CD;</span> 
+            <span>Nagpur, Maharashtra</span>
+        </div>
+    </header>
+
+   
+<section id="about-internship" class="about-section">
+    <div class="text-container">
+        <h1>Web Developer Internship Opportunities</h1>
+    <p>Join Cognifyz Technologies for a Web Developer Internship where you'll gain hands-on experience in building and maintaining web applications. Work with a team of passionate developers and receive mentorship from industry experts.</p>
+        <a href="#cta" class="btn primary-btn">Apply Now</a>
+    </div>
+    <div class="image-container">
+        <img src="img/web-development-isolated-cartoon-concept-vector.png" alt="Internship Image" class="internship-image">
+    </div>
+</section>
+
+    <section id="highlights" class="container">
+        <h2>Why Join Us?</h2>
+        <div class="highlight-grid">
+            <div class="highlight-item">
+                <h3>Real-World Experience</h3>
+                <p>Engage in real projects that impact our clients, giving you practical experience in a professional setting.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Mentorship</h3>
+                <p>Learn from experienced developers who are eager to share their knowledge and guide your career growth.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Networking</h3>
+                <p>Connect with industry professionals and like-minded peers to build your professional network.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Certification</h3>
+                <p>Receive a certificate of completion to add to your portfolio and boost your resume.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Portfolio Development</h3>
+                <p>Work on real projects that you can showcase in your portfolio, demonstrating your skills to potential employers.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Flexible Work Environment</h3>
+                <p>Enjoy a flexible work environment that balances learning with productivity, whether remote.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="qualifications" class="container">
+        <h2>Who We're Looking For</h2>
+        <p>We are seeking motivated individuals who possess the following skills and knowledge:</p>
+        <ul>
+            <li>Proficiency in HTML, CSS, and JavaScript.</li>
+            <li>Experience with PHP and MySQL is a plus.</li>
+            <li>Knowledge of responsive design and front-end frameworks like Bootstrap.</li>
+            <li>Understanding of version control systems like Git.</li>
+            <li>Excellent problem-solving skills and a keen eye for detail.</li>
+            <li>Ability to work collaboratively in a team environment.</li>
+        </ul>
+    </section>
+
+     <section id="cta" class="container">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Don't miss out on this incredible opportunity to kickstart your career in web development. Apply now and take the first step towards a successful future with Cognifyz Technologies.</p>
+        <label for="apply-now" class="btn primary-btn">Apply Now</label>
+        <a href="https://www.cognifyz.com" class="btn secondary-btn">Learn More</a>
+    </section>
+
+    
+<input type="checkbox" id="apply-now" class="modal-toggle">
+<div class="modal">
+    <div class="modal-content">
+        <label for="apply-now" class="close">&times;</label>
+        <h2>Apply Now</h2>
+        <form id="applyForm" class="apply-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="education">Education Level:</label>
+                <select id="education" name="education" required>
+                    <option value="" disabled selected>Select your education level</option>
+                    <option value="highschool">High School</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="postgraduate">Postgraduate</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Internship Duration:</label>
+                <select id="duration" name="duration" required>
+                    <option value="" disabled selected>Select the duration</option>
+                    <option value="1-month">1 Month</option>
+                    <option value="2-months">2 Months</option>
+                    <option value="3-months">3 Months</option>
+                    <option value="6-months">6 Months</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Resume (PDF):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+            </div>
+
+            <div class="form-group full-width">
+                <label for="coverLetter">Cover Letter (Optional):</label>
+                <textarea id="coverLetter" name="coverLetter" rows="4" placeholder="Write your cover letter here (optional)"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="linkedin">LinkedIn Profile:</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="LinkedIn profile URL (optional)">
+            </div>
+
+            <div class="form-group">
+                <label for="portfolio">Portfolio URL:</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="Portfolio URL (optional)">
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</div>  
+
+<footer>
+    <div class="container">
+        <p>Contact us at: <a href="mailto:cognifyztechnologies@gmail.com">cognifyztechnologies@gmail.com</a></p>
+        <p>Visit our website: <a href="https://www.cognifyz.com" target="_blank">www.cognifyz.com</a></p>
+        <p>Follow us on <a href="https://www.linkedin.com/company/cognifyz-techonologies/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/cognifyz_tech/" target="_blank">Instagram</a> | <a href="https://t.me/cognifyz_technologies" target="_blank">Telegram</a></p>
+        <p>&copy; 2024 Cognifyz Technologies. All rights reserved.</p>
+        <p class="developer-name">Website created by @Simaran Sawant</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
